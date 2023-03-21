@@ -1,0 +1,1378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.imgheader {
+  width: 100%;
+}
+.imgHeader img {
+  width: 100%;
+}
+.green {
+  color: #549663;
+}
+.theRevolutionary {
+  margin: 3.75em 0;
+  text-align: center;
+}
+.theRevolutionaryContent {
+  margin-bottom: 2.5em;
+}
+.theRevolutionaryContent h2 {
+  font-size: 2.5rem;
+  color: #363636;
+  font-weight: 800;
+}
+.theRevolutionaryContent p {
+  margin-top: 1.25em;
+  font-size: 1.38rem;
+  font-weight: 800;
+  color: #363636;
+}
+.thePromotion {
+  margin-top: 2.5em;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.25em;
+  text-align: center;
+}
+.promotion {
+  width: 24.5rem;
+  border-radius: 1rem;
+}
+.promotionColor {
+  background-color: #f0d8a8;
+  color: #363636;
+  padding: 1.3rem 0rem;
+  font-size: 1.9rem;
+  font-weight: 800;
+  border-start-end-radius: 1rem;
+  border-start-start-radius: 1rem;
+}
+.border {
+  border-end-end-radius: 1rem;
+  border-end-start-radius: 1rem;
+  border-bottom: 1px solid #acacac2d;
+  border-left: 1px solid #acacac2d;
+  border-right: 1px solid #acacac2d;
+}
+.promotionBorder {
+  background-color: rgba(230, 236, 224, 0.5);
+  border-end-end-radius: 1rem;
+  border-end-start-radius: 1rem;
+  width: 100%;
+}
+.promotionText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #363636;
+  padding: 1em 0 1em 0;
+}
+.promotionSaveTo {
+  color: #363636;
+  font-size: 1.25rem;
+  padding: 0.5em 0;
+  font-weight: 500;
+}
+.promotionPrice {
+  font-size: 3.25rem;
+  color: #549663;
+  font-weight: 800;
+}
+
+.boxBuyNow {
+  background-color: #ffd800;
+  border-radius: 0.9rem;
+  margin: 1.5em 1.8em 0.3em 1.8em;
+  padding: 0.7em 0em;
+}
+.btnTextBuyNow {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #363636;
+}
+.btnTextShipping {
+  font-size: 1.12rem;
+  font-weight: 500;
+}
+.btnYellowProcent {
+  font-weight: 500;
+  color: #363636;
+}
+.promotionRegPrice {
+  color: #363636;
+  font-size: 1.12rem;
+  padding-bottom: 1.25em;
+  font-weight: 500;
+}
+.visaClass {
+  padding-bottom: 1.56em;
+}
+
+.moneyBackGuarantee {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 0.9em;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #363636;
+  margin-top: 1.87em;
+}
+.moneyBackGuaranteBox {
+  margin-bottom: 3.7em;
+}
+.moneyBackGuaranteBox1 {
+  margin-bottom: 3em;
+}
+.scroolTo {
+  background-color: #f1f0f5;
+  align-items: center;
+}
+
+.powerfulResults {
+  text-align: center;
+  color: #ffffff;
+  background-color: #549663;
+  padding: 3.12em 0 5em 0;
+}
+.powerfulResults p {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.powerfulResults h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.weight {
+  font-weight: 400;
+  padding-right: 10px;
+}
+.powerfulResults1Content p {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.powerfulResults1Content h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+#arrowDownImg {
+  text-align: center;
+  margin-top: -2.5em;
+}
+
+.firstRow03 {
+  padding-top: 3.75em;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  color: #363636;
+  gap: 1.87rem;
+  width: 1170px;
+  margin: auto;
+}
+
+.firstCol03 img {
+  border-radius: 0.9em;
+  filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.2));
+}
+.firstCol03 h4 {
+  text-align: center;
+  font-size: 1.87rem;
+  font-weight: 800;
+  color: #549663;
+  padding-bottom: 1.25em;
+  margin-top: 1em;
+}
+.firstCol03 p {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: auto;
+  text-align: start;
+  padding-bottom: 1.87em;
+  padding: 0 1.25em;
+}
+
+#prRedText03 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #d43b4a;
+  padding-top: 1.87em;
+  text-align: start;
+}
+.secondRowOfCards03 {
+  margin-bottom: 3em;
+}
+.btnScrollBuyNow {
+  text-align: center;
+}
+
+#btnScrollBuyNow {
+  background-color: #ffd800;
+  width: 30%;
+  height: 80px;
+  border-radius: 0.5em;
+  border: none;
+  font-size: 1.87rem;
+  font-weight: 800;
+  color: #363636;
+}
+#btnScrollBuyNow:hover {
+  background-color: #ffd800;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.blockQuotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.87em;
+  margin: auto;
+  padding-bottom: 3.75em;
+  background: #f1f0f5;
+}
+.blockQuote {
+  background-color: white;
+  padding: 3.12em 1.87em 1.25em 1.87em;
+  border-radius: 0.9em;
+  width: 570px;
+}
+.block {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 400;
+  align-items: start;
+  color: #363636;
+}
+
+.blockQuoteStars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1.25em;
+  color: #549663;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.blockQuotesWhite {
+  background-color: #ffffff;
+  margin-top: 2.5em;
+}
+
+.grey {
+  background-color: #f1f0f5;
+}
+
+.potentSuperNutrient {
+  margin-top: 3.75em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+  text-align: center;
+}
+.potentSuperNutrientContent {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #549663;
+}
+
+.potentSuperNutrientText {
+  font-size: 1.87rem;
+  font-weight: 800;
+  color: #363636;
+}
+
+.allGradients {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2.5em;
+  margin-bottom: 3.75em;
+  gap: 1.25em;
+  gap: 1.25em;
+}
+
+.theGradient {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1170px;
+  padding: 1.87em;
+  box-shadow: 0 0.3em 1.87em rgb(0, 0, 0, 0.2);
+  align-items: center;
+  border-radius: 0.9em;
+  /* width: 60.5%; */
+  margin: auto;
+}
+.gradientText {
+  width: 70%;
+}
+.gradientText img {
+  width: 50%;
+  margin: auto;
+}
+#gradientGreen {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #549663;
+  padding-bottom: 0.6em;
+}
+#gradientGrey {
+  color: #363636;
+  font-size: 1.25rem;
+  margin-right: 1.87em;
+}
+ul {
+  padding: 1.25em 1.87em 0em 2.5em;
+  color: #363636;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+li {
+  padding-bottom: 0.6em;
+}
+/* REDISCOVER */
+.rediscover {
+  display: flex;
+  flex: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.rediscoverContent {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.text30DaySupply {
+  margin: auto;
+  width: 60.5%;
+  font-size: 1.25em;
+  font-weight: 400;
+  color: #363636;
+}
+
+.riskFree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+.riskFree img {
+  width: 100%;
+}
+.riskFreeInside {
+  width: 100%;
+  margin: 2.5em 0 3.7em 0;
+  padding: 3.7em 2.5em;
+  background-color: #549663;
+  color: #ffffff;
+  border-radius: 0.9em;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+}
+.riskFree h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.textAndImgRiskFree {
+  padding: 2.5em 0;
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+}
+
+.text {
+  width: 750px;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.riskFreeTextPlus {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.riskFreeSecond {
+  background-color: #f1f0f5;
+  padding-top: 1.25em;
+}
+.experienceContent {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.whyGreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3.1em;
+  background-color: #f1f0f5;
+  padding: 3.75em 0;
+}
+
+.whyGreen h2 {
+  font-size: 3.1rem;
+  font-weight: 800;
+  color: #549663;
+  padding-bottom: 0.5em;
+}
+
+#wgp {
+  color: #363636;
+  font-size: 1.87rem;
+  font-weight: 800;
+}
+
+.whyGreenTextAndImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.whyGreenFirst {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.87em;
+}
+.listWhyGreen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.9em;
+  justify-content: flex-end;
+  text-align: end;
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #363636;
+}
+.listWhyGreenRight {
+  justify-content: flex-start;
+  text-align: start;
+}
+.imageWhyGreen {
+  width: 30%;
+}
+.imageWhyGreen img {
+  width: 100%;
+}
+.backgroundUrl {
+  background: url(/images/background.png);
+}
+.safeAndEffective {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.75em 0;
+  text-align: center;
+  gap: 2.5em;
+  /* width: 100%; */
+  margin: auto;
+}
+.safeAndEffectiveRow {
+  display: flex;
+  flex-direction: row;
+  gap: 1.87em;
+  /* width: 50%; */
+  justify-content: center;
+}
+.safeAndEffCol {
+  display: flex;
+  flex-direction: column;
+  padding: 1.87em 1.25em;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 0.9em;
+  width: 100%;
+}
+.safeAndEffCol img {
+  width: 20%;
+}
+.safeAndEffCol h6 {
+  color: #549663;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding: 0.7em 1.25em 0.6em 1.25em;
+}
+.safeAndEffCol {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #363636;
+}
+.safeAndEffectiveText {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #363636;
+}
+.safeAndEffCol {
+  width: 470px;
+}
+
+.frequentlyAsked {
+  width: 62.5%;
+  align-items: center;
+  margin: auto;
+  padding: 0.9px;
+  border-radius: 0.9em;
+  padding-bottom: 1.87em;
+}
+.frequentlyAsked h2 {
+  font-size: 2.5rem;
+  margin: 1.8em 0 1.2em;
+  text-align: center;
+  color: #363636;
+  font-weight: 800;
+}
+.freqAskContent {
+  margin: 1rem 0;
+  border-radius: 0.9em;
+  background-color: white;
+  border: 1px solid;
+  border-color: #549663;
+  overflow: hidden;
+}
+.freqAskContent header {
+  background-color: #549663;
+  padding: 1.2em 1em;
+  align-items: center;
+}
+.freqAskTitle {
+  font-size: 1.2rem;
+  color: #f1f0f5;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  padding: 0.9em;
+}
+.freqAskContent.open {
+  padding-bottom: 10%;
+}
+.freeqAskDescription {
+  font-size: 1rem;
+  color: #363636;
+  height: 0;
+  padding: 0 0.9rem;
+}
+.privacyPolicy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3.12em;
+  text-align: center;
+}
+.privacyPolicyRow {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.25em;
+  font-weight: 800;
+  border-bottom: 1.2px solid;
+  border-color: #36363660;
+  padding: 1.2rem;
+  width: 62.5%;
+  gap: 0.9em;
+  font-size: 1rem;
+  color: #363636;
+}
+.privacyPolicyRow1 {
+  border: none;
+}
+.privacyPolicyRow2 {
+  border: none;
+  font-weight: 400;
+  width: 60%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.privacyPolicyRow3 {
+  border: 1px solid;
+  font-weight: 400;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .firstRow03 {
+    width: 100%;
+  }
+  .firstCol03 img {
+    width: 100%;
+  }
+  .firstCol03 {
+    width: 50%;
+  }
+  .theGradient {
+    width: 100%;
+  }
+  .gradientText ul {
+    margin-bottom: 1em;
+  }
+
+  .listWhyGreen p {
+    font-size: 1.5rem;
+  }
+  .imageWhyGreen {
+    padding-top: 1em;
+  }
+  .riskFree {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .privacyPolicyRow {
+    width: 100%;
+    align-items: center;
+  }
+  .privacyPolicyRow1 {
+    text-align: center;
+  }
+  .freqAskContent.open {
+    padding-bottom: 30%;
+  }
+  .theRevolutionary {
+    margin: 2em 0;
+  }
+  .theRevolutionaryContent h2 {
+    font-size: 1.5rem;
+  }
+  .theRevolutionaryContent p {
+    margin-top: 1.25em;
+    font-size: 1rem;
+  }
+  .promotionColor {
+    font-size: 1.2rem;
+    padding: 1rem 0rem;
+  }
+  .promotionText {
+    font-size: 1.2rem;
+    padding: 0.4em 0;
+  }
+  .promotionSaveTo {
+    font-size: 1rem;
+    padding: 0.3em 0;
+  }
+  .promotionPrice {
+    font-size: 2.5rem;
+  }
+  .boxBuyNow {
+    padding: 0.6em 0em;
+    margin: 0.8em 1.8em 0.5em 1.8em;
+  }
+  .btnTextBuyNow {
+    font-size: 1.2rem;
+  }
+  .btnTextShipping {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .promotionRegPrice {
+    font-size: 1 rem;
+    padding-bottom: 0.8em;
+  }
+  .visaClass {
+    padding-bottom: 1em;
+  }
+  .moneyBackGuarantee {
+    font-size: 1rem;
+    margin-top: 1.5em;
+  }
+  .moneyBackGuaranteBox {
+    margin-bottom: 3em;
+  }
+  .powerfulResults p {
+    font-size: 2rem;
+  }
+  .powerfulResults h2 {
+    font-size: 2.5rem;
+  }
+  .powerfulResults1Content p {
+    font-size: 2rem;
+  }
+  .powerfulResults1Content h2 {
+    font-size: 2rem;
+  }
+  .firstRow03 {
+    width: 100%;
+  }
+  .firstCol03 img {
+    width: 100%;
+  }
+  .firstCol03 {
+    width: 50%;
+  }
+  .firstCol03 h4 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .firstCol03 p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #prRedText03 {
+    font-size: 1rem;
+  }
+  #btnScrollBuyNow {
+    width: 50%;
+    height: 65px;
+    font-size: 1.4rem;
+  }
+  .block {
+    font-size: 1rem;
+  }
+  .potentSuperNutrient {
+    margin-top: 2.4em;
+  }
+  .potentSuperNutrientContent {
+    font-size: 2rem;
+  }
+  .potentSuperNutrientText {
+    font-size: 1rem;
+  }
+  .theGradient {
+    width: 100%;
+    flex-direction: column;
+  }
+  ul {
+    margin-bottom: 1em;
+    font-size: 1.25rem;
+  }
+  #gradientGreen {
+    text-align: center;
+    font-style: initial;
+    font-size: 2rem;
+  }
+  #gradientGrey {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-right: 0em;
+  }
+
+  .text30DaySupply {
+    width: 80%;
+    font-size: 1.15em;
+    text-align: center;
+  }
+  .riskFree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+  }
+  .textAndImgRiskFree {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    width: 100%;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .imgRiskFree {
+    width: 40%;
+    margin: auto;
+    padding-left: 10%;
+    order: -1;
+  }
+  .riskFree h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .riskFreeTextPlus {
+    text-align: center;
+  }
+  .safeAndEffective {
+    width: 100%;
+  }
+  .safeAndEffectiveRow {
+    width: 100%;
+  }
+  .riskFree {
+    width: 70%;
+  }
+  .riskFree img {
+    width: 100%;
+  }
+  .whyGreen h2 {
+    font-size: 2.5rem;
+  }
+  #wgp {
+    font-size: 1.25rem;
+  }
+  .imageWhyGreen {
+    order: -1;
+
+    align-self: center;
+  }
+  .listWhyGreen {
+    justify-content: flex-start;
+    text-align: start;
+    font-size: 1.25rem;
+  }
+  .whyGreenTextAndImg img {
+    order: -1;
+  }
+  .safeAndEffCol img {
+    width: 15%;
+  }
+  .safeAndEffCol h6 {
+    font-size: 1.25rem;
+  }
+  .safeAndEffCol {
+    font-size: 1rem;
+  }
+  .powerfulResults h2 {
+    font-size: 1.87rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .privacyPolicyRow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .privacyPolicyRow1 {
+    text-align: center;
+  }
+  .freqAskContent.open {
+    padding-bottom: 60%;
+  }
+  .theRevolutionaryContent {
+    margin-bottom: 1em;
+  }
+  .theRevolutionaryContent h2 {
+    font-size: 1.5em;
+  }
+  .theRevolutionaryContent p {
+    margin-top: 1em;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .thePromotion {
+    margin-top: 2.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25em;
+    text-align: center;
+  }
+  .promotionColor {
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .promotionText {
+    font-size: 1rem;
+  }
+  .promotionSaveTo {
+    font-size: 1rem;
+  }
+  .promotionPrice {
+    font-size: 2rem;
+  }
+  .boxBuyNow {
+    margin: 1em 1.5em 0.3em 1.5em;
+    padding: 0.7em 0em;
+  }
+  .btnTextBuyNow {
+    font-size: 1.2rem;
+  }
+  .btnTextShipping {
+    font-size: 1rem;
+  }
+  .promotionRegPrice {
+    font-size: 1.12rem;
+  }
+  .visaClass {
+    padding-bottom: 1.2em;
+  }
+  .moneyBackGuarantee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.25rem;
+    margin-top: 1.5em;
+  }
+  .moneyBackGuarantee img {
+    width: 8%;
+    height: auto;
+    align-self: center;
+  }
+  .moneyBackGuarantee p {
+    width: 80%;
+    margin: auto;
+  }
+  .powerfulResults p {
+    font-size: 1.5rem;
+  }
+  .powerfulResults h2 {
+    font-size: 1.87rem;
+  }
+  .powerfulResults {
+    padding: 2.5em 0 5em 0;
+  }
+  .powerfulResults p {
+    font-size: 1.87rem;
+  }
+  .powerfulResults h2 {
+    font-size: 1.87rem;
+  }
+  .firstRow03 {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .firstCol03 img {
+    width: 100%;
+  }
+  .firstCol03 h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  .firstCol03 p {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  #prRedText03 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1.5em;
+  }
+  #btnScrollBuyNow {
+    width: 60%;
+    height: 65px;
+    font-size: 1.4rem;
+  }
+  .blockQuotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+  }
+  .blockQuote {
+    width: 100%;
+  }
+  .block {
+    font-size: 1rem;
+  }
+  .theGradient {
+    width: 100%;
+    flex-direction: column;
+  }
+  ul {
+    margin-bottom: 1em;
+    font-size: 1rem;
+  }
+  #gradientGreen {
+    text-align: center;
+    font-style: initial;
+    font-size: 1.87rem;
+  }
+  #gradientGrey {
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 0em;
+  }
+
+  .blockQuotesWhite {
+    margin-top: 1.8em;
+  }
+  .potentSuperNutrient {
+    margin-top: 2.4em;
+  }
+  .potentSuperNutrientContent {
+    font-size: 1.87rem;
+  }
+  .potentSuperNutrientText {
+    font-size: 1rem;
+  }
+  .text30DaySupply {
+    width: 95%;
+    font-size: 1em;
+    text-align: center;
+  }
+  .riskFree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  .textAndImgRiskFree {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .imgRiskFree {
+    width: 40%;
+    margin: auto;
+    padding-left: 10%;
+    order: -1;
+  }
+  .riskFree h2 {
+    font-size: 1.87rem;
+    text-align: center;
+  }
+  .riskFreeTextPlus {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .safeAndEffective {
+    width: 100%;
+  }
+  .safeAndEffectiveRow {
+    width: 100%;
+  }
+  .riskFree {
+    width: 70%;
+  }
+  .riskFree img {
+    width: 100%;
+  }
+  .whyGreen h2 {
+    font-size: 2.5rem;
+  }
+  #wgp {
+    font-size: 1.25rem;
+  }
+  .imageWhyGreen {
+    display: none;
+  }
+  .listWhyGreen img {
+    width: 12%;
+    height: auto;
+    order: -1;
+  }
+  .listWhyGreen {
+    justify-content: flex-start;
+    padding: 1em;
+    text-align: start;
+    font-size: 1rem;
+  }
+
+  .safeAndEffCol img {
+    width: 20%;
+  }
+  .safeAndEffCol h6 {
+    font-size: 1rem;
+  }
+  .safeAndEffCol {
+    font-size: 1rem;
+  }
+  .powerfulResults h2 {
+    font-size: 1.87rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .privacyPolicyRow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .privacyPolicyRow1 {
+    align-items: center;
+    text-align: center;
+  }
+  .privacyPolicyRow2 {
+    text-align: center;
+  }
+  .freqAskContent.open {
+    padding-bottom: 100%;
+  }
+  .theRevolutionaryContent {
+    margin-bottom: 1em;
+  }
+  .theRevolutionaryContent h2 {
+    font-size: 1.5em;
+  }
+  .theRevolutionaryContent p {
+    margin-top: 1em;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .promotion {
+    width: 20rem;
+    border-radius: 1rem;
+  }
+  .thePromotion {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .promotionBorder img {
+    width: 20rem;
+  }
+  .promotionColor {
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .promotionText {
+    font-size: 1rem;
+  }
+  .promotionSaveTo {
+    font-size: 1rem;
+  }
+  .promotionPrice {
+    font-size: 1.7rem;
+  }
+  .boxBuyNow {
+    margin: 1em 1.5em 0.3em 1.5em;
+    padding: 0.7em 0em;
+  }
+  .btnTextBuyNow {
+    font-size: 1.2rem;
+  }
+  .btnTextShipping {
+    font-size: 1rem;
+  }
+  .promotionRegPrice {
+    font-size: 1.12rem;
+  }
+  .visaClass {
+    display: none;
+  }
+  .moneyBackGuarantee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 1em;
+  }
+  .moneyBackGuarantee img {
+    width: 8%;
+    height: auto;
+    align-self: center;
+  }
+  .moneyBackGuarantee p {
+    width: 80%;
+    margin: auto;
+  }
+  .powerfulResults p {
+    font-size: 1.2rem;
+  }
+  .powerfulResults h2 {
+    font-size: 1.5rem;
+  }
+  .powerfulResults {
+    padding: 2em 0 5em 0;
+  }
+  .powerfulResults p {
+    font-size: 1rem;
+  }
+  .powerfulResults h2 {
+    font-size: 1.5rem;
+  }
+  .firstRow03 {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .firstCol03 img {
+    width: 100%;
+  }
+  .firstCol03 h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  .firstCol03 p {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  #prRedText03 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1.5em;
+  }
+  #btnScrollBuyNow {
+    width: 60%;
+    height: 65px;
+    font-size: 1.4rem;
+  }
+  .blockQuotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+  }
+  .blockQuote {
+    width: 100%;
+  }
+  .block {
+    font-size: 1rem;
+  }
+  .gradientImg {
+    display: none;
+  }
+  .theGradient {
+    width: 100%;
+    flex-direction: column;
+  }
+  ul {
+    margin-bottom: 0.2em;
+    font-size: 1rem;
+  }
+  #gradientGreen {
+    text-align: center;
+    font-style: initial;
+    font-size: 1.87rem;
+  }
+  #gradientGrey {
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 0em;
+  }
+  .blockQuotesWhite {
+    margin-top: 1.8em;
+  }
+  .potentSuperNutrient {
+    margin-top: 2.4em;
+  }
+  .potentSuperNutrientContent {
+    font-size: 1.3;
+  }
+  .potentSuperNutrientText {
+    font-size: 1rem;
+  }
+  .text30DaySupply {
+    width: 95%;
+    font-size: 1em;
+    text-align: center;
+  }
+  .riskFree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+  .textAndImgRiskFree {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .imgRiskFree {
+    display: none;
+  }
+  .riskFree h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .riskFreeTextPlus {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .safeAndEffective {
+    width: 100%;
+  }
+  .safeAndEffectiveRow {
+    width: 100%;
+  }
+  .riskFree {
+    width: 70%;
+  }
+  .riskFree img {
+    width: 100%;
+  }
+  .whyGreen h2 {
+    font-size: 1.5rem;
+  }
+  #wgp {
+    font-size: 1rem;
+  }
+  .whyGreenTextAndImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .imageWhyGreen {
+    display: none;
+  }
+  .listWhyGreen img {
+    width: 12%;
+    height: auto;
+    order: -1;
+  }
+  .whyGreenFirst {
+    width: 40%;
+  }
+  .listWhyGreen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    gap: 0.9em;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  .safeAndEffectiveRow {
+    display: flex;
+    flex-direction: column;
+    gap: 1.87em;
+    justify-content: center;
+    align-items: center;
+  }
+  .safeAndEffCol {
+    width: 100%;
+  }
+  .safeAndEffCol img {
+    width: 15%;
+  }
+  .safeAndEffCol h6 {
+    font-size: 1rem;
+  }
+  .safeAndEffCol {
+    font-size: 1rem;
+  }
+  .powerfulResults h2 {
+    font-size: 1.5rem;
+  }
+  .customerService {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+}
